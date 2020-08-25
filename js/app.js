@@ -87,6 +87,7 @@
         });
 
         // $(".gallery-item a").imageLightbox();
+
      /*   if ($(".map").length) {
             $('.map').gmap3({
                     map: {
@@ -94,23 +95,14 @@
                             maxZoom: 14
                         }
                     },
-                    marker: ({
-                        "address": "Folkungavägen 14, Järfälla, Stockholms län, Sweden",
-                        "data": "marker 1"
-                    }, {
-                        "address": "syria",
-                        "data": "marker 2"
-                    }),
+                    marker: {
+                        address: "40 Sibley St, Detroit",
+                    }
                 },
                 "autofit");
-                for (i = 0; i < locations.length; i++) {  
-                    marker = new google.maps.Marker({
-                      position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-                      map: map
-                 });
-        }
-    };*/
 
+        }*/
+    });
 
 
     function submitGetQuoteForm() {
